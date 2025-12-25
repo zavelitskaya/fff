@@ -1,0 +1,8 @@
+@startuml 11
+actor aya
+participant kafka
+
+aya -> kafka: req
+kafka --> aya: resp
+
+@enduml
